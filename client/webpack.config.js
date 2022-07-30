@@ -25,14 +25,14 @@ const config = {
         new HtmlWebpackPlugin({
             template: 'index.html',
         }),
-        new CopyPlugin({
+      /*  new CopyPlugin({
             patterns: [
 
-                { from: "./src/assets/", to: "./src/assets/" },
+             //   { from: "./src/assets/", to: "./src/assets/" },
 
 
             ],
-        }),
+        }),*/
 
 
         // Add your plugins here
